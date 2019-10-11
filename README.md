@@ -49,3 +49,9 @@ El siguiente es el manual de uso de la funcion calendarioMult
 	EJ.
 	
 		calMult_getData();
+
+Todos los aportes son voluntarios.
+
+Si deseas ayudarme para continuar con mis aportes puedes enviarme a mi billetera en BTC
+
+1NrBE31sYvq5F96nD8GGRS5TWXneVnG3yo
