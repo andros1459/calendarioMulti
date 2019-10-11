@@ -1,0 +1,25 @@
+{
+  "meses": {
+    "1": "Enero",
+    "2": "Febrero",
+    "3": "Marzo",
+    "4": "Abril",
+    "5": "Mayo",
+    "6": "Junio",
+    "7": "Julio",
+    "8": "Agosto",
+    "9": "Septiembre",
+    "10": "Octubre",
+    "11": "Noviembre",
+    "12": "Diciembre"
+  },
+  "dsemana": {
+    "0": "D",
+    "1": "L",
+    "2": "M",
+    "3": "X",
+    "4": "J",
+    "5": "V",
+    "6": "S"
+  }
+}
