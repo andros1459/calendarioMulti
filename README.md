@@ -6,7 +6,7 @@ El siguiente es el manual de uso de la funcion calendarioMult
 
 Debe colocarlo directamente en un servidor para que funcione ya sea uno web o uno local.
 
-Para ver la demo de click aqui Demo(http://plugins.tecnologiaswebsite.com/calendarioMult/)
+Para ver la demo de click aqui [Demo](http://plugins.tecnologiaswebsite.com/calendarioMult/)
 
 - calendarioMult
 
