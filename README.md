@@ -4,6 +4,8 @@ Plugin para generar un directorio capacidad de edicion al 100%.
 
 El siguiente es el manual de uso de la funcion calendarioMult
 
+Debe colocarlo directamente en un servidor para que funcione ya sea uno web o uno local.
+
 - calendarioMult
 	Este es la forma de iniciar el calendario.
 	
@@ -24,7 +26,7 @@ El siguiente es el manual de uso de la funcion calendarioMult
 	
 	-idioma[STRING] opcional: es el idioma del calendario si no se coloca el idioma oficial es español.
 	
-	-dir[STRING]: es la direccion de ubicacion del js de calendarioMult.
+	-dir[STRING]: es la direccion de ubicacion del json con el idioma de calendarioMult.
 
 	EJ.
 	
@@ -49,6 +51,35 @@ El siguiente es el manual de uso de la funcion calendarioMult
 	EJ.
 	
 		calMult_getData();
+
+- Idioma
+	Puede agregar cualquier idioma a calentadioMult solo debe crear un nuevo archivo .JSON con los nuevos nombres de meses y dias de la semana, la estructura es la siguiente:
+
+		{
+		"meses": {
+		    "1": "Enero",
+		    "2": "Febrero",
+		    "3": "Marzo",
+		    "4": "Abril",
+		    "5": "Mayo",
+		    "6": "Junio",
+		    "7": "Julio",
+		    "8": "Agosto",
+		    "9": "Septiembre",
+		    "10": "Octubre",
+		    "11": "Noviembre",
+		    "12": "Diciembre"
+		},
+		"dsemana": {
+		    "0": "D",
+		    "1": "L",
+		    "2": "M",
+		    "3": "X",
+		    "4": "J",
+		    "5": "V",
+		    "6": "S"
+		}
+		}
 
 Todos los aportes son voluntarios.
 
