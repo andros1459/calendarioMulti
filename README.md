@@ -7,6 +7,7 @@ El siguiente es el manual de uso de la funcion calendarioMult
 Debe colocarlo directamente en un servidor para que funcione ya sea uno web o uno local.
 
 - calendarioMult
+
 	Este es la forma de iniciar el calendario.
 	
 		calendarioMult({
@@ -40,6 +41,7 @@ Debe colocarlo directamente en un servidor para que funcione ya sea uno web o un
 		})
 
 - calMult_getData
+
 	Se usa para obtener los datos del calentario.
 	
 		calMult_getData();
@@ -53,6 +55,7 @@ Debe colocarlo directamente en un servidor para que funcione ya sea uno web o un
 		calMult_getData();
 
 - Idioma
+
 	Puede agregar cualquier idioma a calentadioMult solo debe crear un nuevo archivo .JSON con los nuevos nombres de meses y dias de la semana, la estructura es la siguiente:
 
 		{
