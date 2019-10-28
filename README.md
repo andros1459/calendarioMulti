@@ -34,7 +34,7 @@ Para ver la demo de click aqui [Demo](http://plugins.tecnologiaswebsite.com/cale
 	EJ.
 	
 		calendarioMult({
-			clase:"#contenidos",
+			obj:"#contenidos",
 			cant:12,
 			mes:1,
 			year:2019,
