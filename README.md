@@ -31,6 +31,8 @@ Para ver la demo de click aqui [Demo](http://plugins.tecnologiaswebsite.com/cale
 	
 	-dir[STRING]: es la direccion de ubicacion del json con el idioma de calendarioMult.
 
+	-fechas[ARRAY]: es un array con todas las fechas se necesitan visualizar al momento de cargar los datos
+
 	EJ.
 	
 		calendarioMult({
@@ -39,7 +41,8 @@ Para ver la demo de click aqui [Demo](http://plugins.tecnologiaswebsite.com/cale
 			mes:1,
 			year:2019,
 			idioma:"ES_es",
-			dir:"/plugins/calendarioMult/"
+			dir:"/plugins/calendarioMult/",
+			fechas:["2019-02-03","2019-03-12","2019-03-13","2019-06-14"]
 		})
 
 - calMult_getData
@@ -85,6 +88,20 @@ Para ver la demo de click aqui [Demo](http://plugins.tecnologiaswebsite.com/cale
 		    "6": "S"
 		}
 		}
+
+- Autollenado
+
+se usa para llenar el calendario con fechas precargadas.
+
+		calMult_date({
+			[array]
+		})
+
+array: son todas las fechas separadas por comas
+
+EJ.
+		
+		calMult_date(["2019-11-10","2019-12-01"])
 
 Todos los aportes son voluntarios.
 
