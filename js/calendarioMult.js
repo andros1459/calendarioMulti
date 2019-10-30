@@ -1,5 +1,5 @@
 /*!
- * calendarioMult.js v1.1
+ * calendarioMult.js v1.2
  * autor: Andres Espinosa
  * (c) 2019 calendarioMult.js Contributors
  * Released under the MIT License

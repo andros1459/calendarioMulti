@@ -31,7 +31,7 @@ Para ver la demo de click aqui [Demo](http://plugins.tecnologiaswebsite.com/cale
 	
 	-dir[STRING]: es la direccion de ubicacion del json con el idioma de calendarioMult.
 
-	-fechas[ARRAY]: es un array con todas las fechas se necesitan visualizar al momento de cargar los datos
+	-fechas[ARRAY] opcional: es un array con todas las fechas se necesitan visualizar al momento de cargar los datos
 
 	EJ.
 	
