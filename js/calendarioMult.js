@@ -194,17 +194,17 @@ function calDias(semana,mes,year){
 	}
 }
 function calMult_date(data){
-	//alert('hola');
 	for(d=0;d<data.length;d++){
-		//alert(data[d]);
 		date=data[d].split("-");
 		fecha=new Date(date[0], date[1], date[2]);
-		year=fecha.getFullYear();
+		year=date[0];
 		mes=(fecha.getMonth());
 		dia=(fecha.getDate());
+		if(mes==0){
+			mes=12;
+		}
 		for(s=0;s<=6;s++){
 			if(document.getElementById('cal_'+dia+'_'+mes+'_'+year+'_'+s)){
-				//alert("pasa");
 				calAvailable(document.getElementById('cal_'+dia+'_'+mes+'_'+year+'_'+s));
 			}
 		}
